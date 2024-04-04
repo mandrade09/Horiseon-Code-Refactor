@@ -24,6 +24,7 @@ body {
     color: #d9dcd6;
 }
 
+/* Made sure CSS selectors (e.g. "nav") and properties are consolidated and organized to follow semantic HTML structure. */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -87,7 +88,7 @@ p {
 }
 
 
-/* consolidated benefit classes */
+/* consolidated benefit classes under <aside class="benefits"> */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
@@ -104,7 +105,7 @@ p {
     max-width: 150px;
 }
 
-/* consolidated 3 sectuins */
+/* consolidated 3 sections under  <main class="content"> */
 .quick-info {
     margin-bottom: 20px;
     padding: 50px;
